@@ -1,0 +1,96 @@
+form{
+    text-align: center;
+}
+
+html,body{
+    height: 100%;
+    min-height: 100%;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper{
+    background-image: url("../assets/images/background/background-coffee-contemporary-1305365.jpg");
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    min-width: 800px;
+    min-height: 950px;
+    background-repeat: no-repeat;
+}
+
+.login_box{ 
+    font-family: cursive,sans-serif;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #ffffff;
+    top: 65px;
+    width: 35%;
+    border: 2px solid #EDEDED;
+    border-radius: 10px;
+    padding: 7px;
+    opacity: 0.95;
+}
+
+.login_head{
+    font-family: cursive,sans-serif;
+    width: 100%;
+    background-color: aquamarine;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    padding: 1px;
+}
+
+.login_head h2{
+    font-family: cursive,sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: blueviolet;
+    text-shadow: #000 1.8px 1.8px 1.8px;
+    font-size: 25px;
+    
+}
+
+input[type='submit']{
+    font-family: cursive,sans-serif;
+    background-color: aquamarine;
+    padding: 5px 6px 5px 6px;
+    border: 1px solid aquamarine;
+    border-radius: 5px;
+    margin: 5px 0px 10px 0px;
+    color: blueviolet;
+    text-shadow: #000 0.6px 0.6px 0.6px;
+    font-size: 18px;
+}
+
+input[type='text'],input[type='email'],input[type='password']{
+    font-family: cursive,sans-serif;
+    margin-top: 5px;
+    border: 1px solid #e5e5e5;
+    width: 50%;
+    border-radius: 3px;
+    height: 30px;
+    margin-bottom: 5px;
+    padding-left: 8px;
+    font-size: 15px;
+}
+
+input[type='text']:hover,input[type='email']:hover,input[type='password']:hover{
+    border-color: aqua;
+}
+
+a{
+    text-decoration: none;
+    color: aqua;
+}
+
+#second_form{
+    display: none;
+    background-color: snow;
+}
